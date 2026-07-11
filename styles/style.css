@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: "Inter", sans-serif;
+}
+
+ /* common-style */
+ .container{
+    max-width: 1200px;
+    margin: auto;
+}
+.common-btn{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* header */
+.fst-nav{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 12px 0;
+     max-width: 1200px;
+     margin: auto;
+}
+
+.fst-nav .fst-li{
+    display: flex;
+    text-decoration: none;
+     list-style: none;
+      gap: 50px;
+      color: #575757;
+}
+/* hero section */
+.hero-fst{
+    text-align: center;
+    background-image: url('../B14-A01-DevConf-2026/assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+.hero-fst h2{
+    font-size: 80px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.hero-fst p{
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.hero-fst button{
+    margin-top: 600px;
+}
+/* speaker section */
+.speaker-heading{
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+}
+.card-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    
+}
+.card-1{
+    border: 1px solid #E5E7EB;
+    border-radius: 18px;
+    overflow: hidden;
+    
+}
+.card-text{
+    margin-top: 5px;
+    padding: 20px;
+}
+.card-text span{
+    color: #007bff;
+    font-weight: 500;
+}
+.card-text h3{
+    color: #0D1B2A;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card-text p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 200;
+}
