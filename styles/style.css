@@ -19,6 +19,10 @@
     font-size: 20px;
     cursor: pointer;
 }
+.text-1{
+    font-size: 18px;
+    font-weight: 200;
+}
 /* header */
 .fst-nav{
     display: flex;
@@ -65,12 +69,13 @@
     text-align: center;
     font-size: 56px;
     font-weight: bold;
+    margin-top: 60px;
 }
 .card-container{
-    margin-top: 50px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 20px;
     
 }
 .card-1{
@@ -96,4 +101,9 @@
     margin-top: 10px;
     font-size: 14px;
     font-weight: 200;
+}
+/*  Secure Your Spot (Pricing) Section */
+.pricing-header p{
+    text-align: center;
+    margin-top: 15px;
 }
