@@ -206,4 +206,34 @@
 .card-in .excpt3 li{
     color: #FFFFFF !important;
 }
-
+/* footer section */
+.futer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.futer-container .futer-header{
+    display: flex;
+    padding: 20px 50px;
+    gap: 20px;
+}
+.futer-container .icon{
+    color: #E5E7EB;
+}
+.futer-container .icon-container{
+    display: flex;
+    gap: 35px;
+}
+.futer-container .futer-privacy{
+    display: flex;
+    gap: 15px;
+   color: #E5E7EB;
+   padding: 0 50px;
+}
+.copyright p{
+    color: #d7dfe8;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 130px;
+}
