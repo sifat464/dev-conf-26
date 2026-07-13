@@ -222,7 +222,7 @@
 }
 .futer-container .icon-container{
     display: flex;
-    gap: 35px;
+    gap: 35px; 
 }
 .futer-container .futer-privacy{
     display: flex;
@@ -236,4 +236,18 @@
     padding-top: 15px;
     padding-bottom: 20px;
     padding-right: 130px;
+}
+/* ai secion */
+.ai-image{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ai-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ai-card img{
+    border: 1px solid #888888;
+    border-radius: 10px;
 }
